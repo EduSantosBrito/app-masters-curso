@@ -1,0 +1,9 @@
+.authorImage {
+  width: 50px;
+}
+
+.avatarBox {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}

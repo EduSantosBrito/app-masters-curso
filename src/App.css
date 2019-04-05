@@ -1,33 +1,55 @@
-.App {
-  text-align: center;
+:root {
+  --border-color: #3f72af;
+  --main-bgcolor: #f8f8f8;
+  --secundary-bgcolor: white;
+  --button-bgcolor: #3f72af;
+  --button-color: white;
+  --title-color: #112d4e;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.content-box {
+  margin-top: 15px;
+  padding: 20px;
+  border: 1px solid var(--border-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content-box--gray {
+  background-color: var(--main-bgcolor);
+}
+.content-box--white {
+  background-color: var(--secundary-bgcolor);
+}
+.content-box--comment {
+  width: 80%;
+  margin-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.content-title {
+  color: var(--title-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-input {
+  width: 80%;
+  padding: 10px 0px;
+}
+
+.content-button {
+  cursor: pointer;
+  margin: 10px 20px;
+  padding: 12px 35px;
+  outline: none;
+  background-color: var(--button-bgcolor);
+  border-radius: 2px;
+  color: var(--button-color);
+  border: 1px solid var(--button-bgcolor);
+  transition: 0.4s;
+}
+
+.content-button:hover {
+  background-color: transparent;
+  color: var(--button-bgcolor);
+}
+
+.content {
+  margin: 20px 10%;
 }
