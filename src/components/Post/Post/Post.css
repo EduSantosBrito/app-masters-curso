@@ -1,0 +1,40 @@
+.post-interact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-comment {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.post-like {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-input {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.post-button {
+  cursor: pointer;
+  margin: 10px 20px;
+  padding: 12px 35px;
+  outline: none;
+  background-color: var(--button-bgcolor);
+  border-radius: 2px;
+  color: var(--button-color);
+  border: 1px solid var(--button-bgcolor);
+  transition: 0.4s;
+}
+
+.post-button:hover {
+  background-color: transparent;
+  color: var(--button-bgcolor);
+}

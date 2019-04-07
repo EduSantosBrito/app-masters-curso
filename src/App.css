@@ -53,3 +53,10 @@
 .content {
   margin: 20px 10%;
 }
+
+.content-loading {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
